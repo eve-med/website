@@ -2,8 +2,8 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="container mx-auto">
-      <div className="font-montserrat h-screen lg:h-full grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center ml-10 ">
+    <div className="container mx-auto bottom-0 flex">
+      <div className="font-montserrat grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center ml-10 ">
         <div className="flex mx-auto text-black flex-col">
           <h1 className="text-2xl md:text-4xl font-black mb-2 md:mb-14">CREANDO ESTADÍSTICAS DE LOS PACIENTES</h1>
           <h4 className="text-sm md:text-xl mb-2 md:mb-14 font-regular">Somos la primer plataforma que crea estadísticas de los pacientes y los sincroniza con los hospitales.</h4>
@@ -11,9 +11,9 @@ const Hero = () => {
             <button className="bg-[#96C3D6] w-52 h-12 rounded-full text-white font-black">BOOK A DEMO</button>
           </a>
         </div>
-        <div className="flex justify-center lg:h-full ">
-          <img alt="doctor" className="w-5/6 lg:w-full" src="/doc_website.png"></img>
-        </div>
+
+        <img alt="doctor" className="w-5/6 lg:w-full mt-auto" src="/doc_website.png"></img>
+
         <div className="flex items-center col-start-1 lg:col-start-3 col-end-3">
           <div className="text-[#8E91B0] flex flex-col">
             <h4 className="text-xl mb-14 font-regular">
